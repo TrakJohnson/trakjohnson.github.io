@@ -2423,14 +2423,14 @@
           },
           {
             "type": "show",
-            "id": "Point_of_interest_2",
+            "id": "Point_of_interest_3",
             "enabled": "enabled",
-            "name": "Point_of_interest 2",
+            "name": "Point_of_interest 3",
             "merged": false,
             "keywords": [
-              "Point_of_interest 2"
+              "Point_of_interest 3"
             ],
-            "eventId": "10"
+            "eventId": "14"
           },
           {
             "type": "show",
@@ -2486,6 +2486,9 @@
             "opacity": 1
           },
           "Group_165": {
+            "opacity": 1
+          },
+          "Point_of_interest_3": {
             "opacity": 1
           }
         }
