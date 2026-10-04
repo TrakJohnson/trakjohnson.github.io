@@ -1,0 +1,2532 @@
+{
+  "version": 3.1,
+  "presentation": "Confirmation viva",
+  "slideDict": {
+    "new_slide": "root",
+    "automata": "Automata",
+    "other_automata": "Monoids",
+    "U_W": "U_W",
+    "Lengthscape": "Lengthscape",
+    "reversal": "reversal",
+    "unambiguous": "unambiguous",
+    "chains": "chains",
+    "function_space": "function_space",
+    "other_atoms": "other_atoms",
+    "orbit_finite2": "orbit_finite",
+    "sets": "sets",
+    "spaces": "spaces",
+    "questions": "questions",
+    "Q": "Q",
+    "N": "N",
+    "QN": "QN",
+    "rado": "rado",
+    "henson": "henson"
+  },
+  "tree": {
+    "type": "child",
+    "name": "root",
+    "id": "new_slide",
+    "enabled": "enabled",
+    "merged": false,
+    "children": [
+      {
+        "type": "child",
+        "name": "Automata",
+        "id": "automata",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "language_example",
+            "enabled": "enabled",
+            "name": "language example",
+            "merged": false,
+            "keywords": [
+              "E.g. “the first letter reappears later”",
+              "牛津牛马 ✓",
+              "牛津午饭吃啥 ✘",
+              "language example"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "Definition: DRA",
+            "merged": false,
+            "keywords": [
+              "Definition: DRA",
+              "eterministic",
+              "egister",
+              "utomata"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "______",
+            "enabled": "enabled",
+            "name": "Σ = 𝔸",
+            "merged": true,
+            "keywords": [
+              "Σ = 𝔸"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "automaton_example",
+            "enabled": "enabled",
+            "name": "automaton example",
+            "merged": false,
+            "keywords": [
+              "⊥",
+              "automaton example"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "DRA",
+            "enabled": "enabled",
+            "name": "DRA",
+            "merged": false,
+            "keywords": [
+              "牛",
+              "q牛",
+              "DRA"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Group_1",
+            "enabled": "enabled",
+            "name": "津,午",
+            "merged": false,
+            "keywords": [
+              "津,午,…≠牛",
+              "津,午"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "牛",
+            "merged": false,
+            "keywords": [
+              "牛",
+              "⊤"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "Group_2",
+            "enabled": "enabled",
+            "name": "马,⋯",
+            "merged": false,
+            "keywords": [
+              "马,⋯"
+            ],
+            "eventId": "17"
+          },
+          {
+            "type": "show",
+            "id": "Q__________qa_a_________",
+            "enabled": "enabled",
+            "name": "Q = {⊥} + {qa}a∈𝔸 + {⊤}",
+            "merged": false,
+            "keywords": [
+              "Q = {⊥} + {qa}a∈𝔸 + {⊤}"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "orbit_finite",
+            "enabled": "enabled",
+            "name": "orbit-finite under Aut(𝔸; =)",
+            "merged": false,
+            "keywords": [
+              "orbit-finite under Aut(𝔸; =)"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "____Q_______Q",
+            "enabled": "enabled",
+            "name": "δ : Q × Σ → Q",
+            "merged": false,
+            "keywords": [
+              "δ : Q × Σ → Q"
+            ],
+            "eventId": "19"
+          },
+          {
+            "type": "show",
+            "id": "equivariant",
+            "enabled": "enabled",
+            "name": "equivariant under Aut(𝔸; =)",
+            "merged": true,
+            "keywords": [
+              "equivariant under Aut(𝔸; =)"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_22",
+            "enabled": "enabled",
+            "name": "(qπ牛, π牛) ↦ π⊤ = ⊤",
+            "merged": false,
+            "keywords": [
+              "⋯ (qπ牛, π牛) ↦ π⊤ = ⊤",
+              "(qπ牛, π津) ↦ qπ牛",
+              "(qπ牛, π牛) ↦ π⊤ = ⊤"
+            ],
+            "eventId": "18"
+          },
+          {
+            "type": "show",
+            "id": "Group_23",
+            "enabled": "enabled",
+            "name": "What works/breaks?",
+            "merged": false,
+            "keywords": [
+              "What works/breaks?"
+            ],
+            "eventId": "21"
+          }
+        ],
+        "keywords": [
+          "Automata over infinite 𝔸",
+          "[Bojańczyk–Klin–Lasota '14]",
+          "Automata"
+        ],
+        "eventId": "1",
+        "originalParams": {
+          "language_example": {
+            "opacity": 1
+          },
+          "automaton_example": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          },
+          "______": {
+            "opacity": 1
+          },
+          "Q__________qa_a_________": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "orbit_finite": {
+            "opacity": 1
+          },
+          "equivariant": {
+            "opacity": 1
+          },
+          "DRA": {
+            "opacity": 1
+          },
+          "Group_1": {
+            "opacity": 1
+          },
+          "Group_2": {
+            "opacity": 1
+          },
+          "Group_22": {
+            "opacity": 1
+          },
+          "____Q_______Q": {
+            "opacity": 1
+          },
+          "Group_23": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Monoids",
+        "id": "other_automata",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "reversal",
+            "id": "reversal",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "One_proof__M______w___Q___Q___w________is_a_finite_monoid_with___",
+                "enabled": "enabled",
+                "name": "One proof: M = { δw : Q → Q | w ∈ Σ* }   is a finite monoid with ⨟;",
+                "merged": false,
+                "keywords": [
+                  "One proof: M = { δw : Q → Q | w ∈ Σ* }   is a finite monoid with ⨟;"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "so_is_the_opposite__M______which_can_be_seen_as_a_DFA_",
+                "enabled": "enabled",
+                "name": "the opposite (M, ∘) is also finite,  which can be seen as a DFA.",
+                "merged": false,
+                "keywords": [
+                  "the opposite (M, ∘) is also finite,  which can be seen as a DFA."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "DRA",
+                "enabled": "enabled",
+                "name": "DRA",
+                "merged": false,
+                "keywords": [
+                  "⊥",
+                  "⋯≠a",
+                  "a",
+                  "qa",
+                  "⊤",
+                  "⋯",
+                  "“the first letter reappears later”",
+                  "DRA"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Group_4",
+                "enabled": "enabled",
+                "name": "orbit-",
+                "merged": false,
+                "keywords": [
+                  "DRA",
+                  "orbit-"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "Group_42",
+                "enabled": "enabled",
+                "name": "NOT orbit-",
+                "merged": true,
+                "keywords": [
+                  "¿orbit-",
+                  "NOT orbit-"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "Group_23",
+                "enabled": "enabled",
+                "name": "⊤ if x ∈ {a,b}",
+                "merged": false,
+                "keywords": [
+                  "δ一二三 : qa ↦",
+                  "qa otherwise",
+                  "⊤ if a ∈ {一,二,三}",
+                  "⊤ if x ∈ {a,b}"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_43",
+                "enabled": "enabled",
+                "name": "⋯≠a",
+                "merged": true,
+                "keywords": [
+                  "⋯≠a",
+                  "qa",
+                  "⊥",
+                  "a",
+                  "⊤",
+                  "⋯"
+                ],
+                "eventId": "10"
+              }
+            ],
+            "keywords": [
+              "Recall: L is recognised by a DFA ⇒ reverse(L) too.",
+              "reversal"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "One_proof__M______w___Q___Q___w________is_a_finite_monoid_with___": {
+                "opacity": 1
+              },
+              "so_is_the_opposite__M______which_can_be_seen_as_a_DFA_": {
+                "opacity": 1
+              },
+              "DRA": {
+                "opacity": 1
+              },
+              "Group_23": {
+                "opacity": 1
+              },
+              "Group_4": {
+                "opacity": 1
+              },
+              "Group_42": {
+                "opacity": 1
+              },
+              "Group_43": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "orbit-finite monoid = single-use DRA",
+            "merged": false,
+            "keywords": [
+              "Theorem. ",
+              "orbit-finite monoid = single-use DRA"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Problem__The_orbit_finite_set___a_does_not_always_generate_an_orbit_fintie_monoid__Decide_when_it_does_",
+            "enabled": "enabled",
+            "name": "Problem. Orbit-finitely many functions δw : Q → Q need NOT generate an orbit-finite monoid.",
+            "merged": false,
+            "keywords": [
+              "Problem. Orbit-finitely many functions δw : Q → Q need NOT generate an orbit-finite monoid."
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "single_use",
+            "enabled": "enabled",
+            "name": "Decide when they do.",
+            "merged": false,
+            "keywords": [
+              "Decide when they do."
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_52",
+            "enabled": "enabled",
+            "name": "–Ghosh–Klin–Y.–⋯]. So far: Q = 𝔸+⋯+𝔸 + 1+⋯+1 Q = 𝔸{d}",
+            "merged": false,
+            "keywords": [
+              "Ongoing work [Bojańczyk–Ghosh–Klin–Y.–⋯]; so far:",
+              "Q = 𝔸+⋯+𝔸 + 1+⋯+1 (using Simon’s Factorisation Forest Theorem) Q = 𝔸{d} (since δw maps a fresh {x1, ⋯, xn} to either {x1, ⋯, xn} or a constant without any xi)",
+              "–Ghosh–Klin–Y.–⋯]. So far: Q = 𝔸+⋯+𝔸 + 1+⋯+1 Q = 𝔸{d}"
+            ],
+            "eventId": "6"
+          }
+        ],
+        "keywords": [
+          "[Bojańczyk–Stefański '19]",
+          "Monoids ⊂ DRA",
+          "Monoids"
+        ],
+        "eventId": "4",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "Problem__The_orbit_finite_set___a_does_not_always_generate_an_orbit_fintie_monoid__Decide_when_it_does_": {
+            "opacity": 1
+          },
+          "single_use": {
+            "opacity": 1
+          },
+          "Group_52": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "U-W",
+        "id": "U_W",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "unambiguous",
+            "id": "unambiguous",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "nondet",
+                "enabled": "enabled",
+                "name": "nondet",
+                "merged": false,
+                "keywords": [
+                  "a",
+                  "nondet"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_7",
+                "enabled": "enabled",
+                "name": "configuration: ",
+                "merged": false,
+                "keywords": [
+                  "⊥",
+                  "串上串串",
+                  "E.g.",
+                  "configuration: "
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "_3",
+                "enabled": "enabled",
+                "name": "|",
+                "merged": true,
+                "keywords": [
+                  "|"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "hide",
+                "id": "_3",
+                "enabled": "enabled",
+                "name": "|",
+                "merged": false,
+                "keywords": [
+                  "|"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "_2",
+                "enabled": "enabled",
+                "name": "|2",
+                "merged": false,
+                "keywords": [
+                  "|2"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Text2",
+                "enabled": "enabled",
+                "name": "+ q一",
+                "merged": true,
+                "keywords": [
+                  "+ q一"
+                ],
+                "eventId": "19"
+              },
+              {
+                "type": "hide",
+                "id": "_2",
+                "enabled": "enabled",
+                "name": "|2",
+                "merged": false,
+                "keywords": [
+                  "|2"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "_32",
+                "enabled": "enabled",
+                "name": "|3",
+                "merged": false,
+                "keywords": [
+                  "|3"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "__q_",
+                "enabled": "enabled",
+                "name": "+ q串",
+                "merged": true,
+                "keywords": [
+                  "+ q串"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "hide",
+                "id": "_32",
+                "enabled": "enabled",
+                "name": "|3",
+                "merged": false,
+                "keywords": [
+                  "|3"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "_4",
+                "enabled": "enabled",
+                "name": "|4",
+                "merged": false,
+                "keywords": [
+                  "|4"
+                ],
+                "eventId": "18"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "+ ⊤",
+                "merged": true,
+                "keywords": [
+                  "+ ⊤"
+                ],
+                "eventId": "22"
+              },
+              {
+                "type": "show",
+                "id": "__q_2",
+                "enabled": "enabled",
+                "name": "+ q串",
+                "merged": true,
+                "keywords": [
+                  "+ q串"
+                ],
+                "eventId": "33"
+              },
+              {
+                "type": "hide",
+                "id": "__q_",
+                "enabled": "enabled",
+                "name": "+ q串",
+                "merged": true,
+                "keywords": [
+                  "+ q串"
+                ],
+                "eventId": "31"
+              },
+              {
+                "type": "show",
+                "id": "Definition__WeightedRA",
+                "enabled": "enabled",
+                "name": "Definition: WeightedRA",
+                "merged": false,
+                "keywords": [
+                  "Definition: WeightedRA"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "V___Lin_________qa_a___________",
+                "enabled": "enabled",
+                "name": "V = Lin( {⊥} + {qa}a∈𝔸 + {⊤} )",
+                "merged": false,
+                "keywords": [
+                  "V = Lin( {⊥} + {qa}a∈𝔸 + {⊤} )"
+                ],
+                "eventId": "26"
+              },
+              {
+                "type": "show",
+                "id": "orbit_finitely_spanned_over__",
+                "enabled": "enabled",
+                "name": "orbit-finitely spanned over ℚ",
+                "merged": false,
+                "keywords": [
+                  "orbit-finitely spanned over ℚ"
+                ],
+                "eventId": "27"
+              },
+              {
+                "type": "show",
+                "id": "____V___Lin______V",
+                "enabled": "enabled",
+                "name": "δ : V × Lin(Σ) → V",
+                "merged": false,
+                "keywords": [
+                  "δ : V × Lin(Σ) → V"
+                ],
+                "eventId": "28"
+              },
+              {
+                "type": "show",
+                "id": "equivariant_and_bi_linear",
+                "enabled": "enabled",
+                "name": "equivariant and (bi-)linear",
+                "merged": true,
+                "keywords": [
+                  "equivariant and (bi-)linear"
+                ],
+                "eventId": "29"
+              },
+              {
+                "type": "show",
+                "id": "Group_5",
+                "enabled": "enabled",
+                "name": "WRA with {0,1}-weights",
+                "merged": false,
+                "keywords": [
+                  "Remark.",
+                  "Σ* → {0,1} URA",
+                  "Lin Σ* → (ℚ = Span {0,1}, +, ×) WRA",
+                  "↪",
+                  "WRA with {0,1}-weights"
+                ],
+                "eventId": "30"
+              }
+            ],
+            "keywords": [
+              "“the last letter has appeared before”",
+              "⋯≠a",
+              "qa",
+              "a",
+              "⊤",
+              "⊥",
+              "unambiguous"
+            ],
+            "eventId": "1",
+            "originalParams": {
+              "nondet": {
+                "opacity": 1
+              },
+              "Group_7": {
+                "opacity": 1
+              },
+              "_3": {
+                "opacity": 1
+              },
+              "_2": {
+                "opacity": 1
+              },
+              "_32": {
+                "opacity": 1
+              },
+              "_4": {
+                "opacity": 1
+              },
+              "Text2": {
+                "opacity": 1
+              },
+              "__q_": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "Definition__WeightedRA": {
+                "opacity": 1
+              },
+              "V___Lin_________qa_a___________": {
+                "opacity": 1
+              },
+              "orbit_finitely_spanned_over__": {
+                "opacity": 1
+              },
+              "____V___Lin______V": {
+                "opacity": 1
+              },
+              "equivariant_and_bi_linear": {
+                "opacity": 1
+              },
+              "Group_5": {
+                "opacity": 1
+              },
+              "__q_2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "chains",
+            "id": "chains",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_6",
+                "enabled": "enabled",
+                "name": "= ⋃n≤N Qn",
+                "merged": false,
+                "keywords": [
+                  "= ⋃n≤N Qn",
+                  "ACC",
+                  "scending",
+                  "hain",
+                  "ondition"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_72",
+                "enabled": "enabled",
+                "name": "A chain of _ of the state space cannot be longer than its _.",
+                "merged": false,
+                "keywords": [
+                  "DFA",
+                  "A chain of _ of the _ state space cannot be longer than its _.",
+                  "subsets",
+                  "size",
+                  "A chain of _ of the state space cannot be longer than its _."
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_77",
+                "enabled": "enabled",
+                "name": "Group 7",
+                "merged": true,
+                "keywords": [
+                  "Group 7"
+                ],
+                "eventId": "13"
+              },
+              {
+                "type": "show",
+                "id": "finite",
+                "enabled": "enabled",
+                "name": "finite",
+                "merged": true,
+                "keywords": [
+                  "finite"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Group_73",
+                "enabled": "enabled",
+                "name": "equivariant subsets",
+                "merged": false,
+                "keywords": [
+                  "DRA",
+                  "equivariant subsets"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "orbit_finite",
+                "enabled": "enabled",
+                "name": "orbit-finite",
+                "merged": true,
+                "keywords": [
+                  "orbit-finite"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "number_of_orbits",
+                "enabled": "enabled",
+                "name": "number of orbits",
+                "merged": false,
+                "keywords": [
+                  "number of orbits"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_74",
+                "enabled": "enabled",
+                "name": "subspaces",
+                "merged": false,
+                "keywords": [
+                  "WFA",
+                  "subspaces"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "finitely_spanned",
+                "enabled": "enabled",
+                "name": "finitely spanned",
+                "merged": true,
+                "keywords": [
+                  "finitely spanned"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "dimension",
+                "enabled": "enabled",
+                "name": "dimension",
+                "merged": false,
+                "keywords": [
+                  "dimension"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "Group_75",
+                "enabled": "enabled",
+                "name": "equivariant subspaces",
+                "merged": false,
+                "keywords": [
+                  "WRA",
+                  "equivariant subspaces"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "orbit_finitely_spanned",
+                "enabled": "enabled",
+                "name": "orbit-finitely spanned",
+                "merged": true,
+                "keywords": [
+                  "orbit-finitely spanned"
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Group_76",
+                "enabled": "enabled",
+                "name": "(Theorem. <∞)",
+                "merged": false,
+                "keywords": [
+                  "length",
+                  "(Theorem. <∞)"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "Group_5",
+                "enabled": "enabled",
+                "name": "distinguishable by Σ* ⇒ distinguishable by Σ≤N",
+                "merged": false,
+                "keywords": [
+                  "For minimisation:",
+                  "indistinguishable by Σ*= ⋂n ~n",
+                  "distinguishable by Σ* ⇒ distinguishable by Σ≤N"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_7",
+                "enabled": "enabled",
+                "name": "= ⋂n≤N ~n",
+                "merged": false,
+                "keywords": [
+                  "= ⋂n≤N ~n",
+                  "DCC",
+                  "escending"
+                ],
+                "eventId": "5"
+              }
+            ],
+            "keywords": [
+              "To check equivalence:",
+              "reachable by Σ* = ⋃n Qn",
+              "chains"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "Group_6": {
+                "opacity": 1
+              },
+              "Group_5": {
+                "opacity": 1
+              },
+              "Group_7": {
+                "opacity": 1
+              },
+              "Group_72": {
+                "opacity": 1
+              },
+              "Group_73": {
+                "opacity": 1
+              },
+              "number_of_orbits": {
+                "opacity": 1
+              },
+              "Group_74": {
+                "opacity": 1
+              },
+              "dimension": {
+                "opacity": 1
+              },
+              "Group_75": {
+                "opacity": 1
+              },
+              "Group_76": {
+                "opacity": 1
+              },
+              "Group_77": {
+                "opacity": 1
+              },
+              "finite": {
+                "opacity": 1
+              },
+              "orbit_finite": {
+                "opacity": 1
+              },
+              "finitely_spanned": {
+                "opacity": 1
+              },
+              "orbit_finitely_spanned": {
+                "opacity": 1
+              },
+              "Group_8": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_5",
+            "enabled": "enabled",
+            "name": "“the last letter has not appeared before”",
+            "merged": false,
+            "keywords": [
+              "“the last letter has not appeared before”",
+              "⋯≠a",
+              "qa",
+              "a",
+              "⊤",
+              "⊥"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "_",
+            "enabled": "enabled",
+            "name": "?",
+            "merged": true,
+            "keywords": [
+              "?"
+            ],
+            "eventId": "26"
+          },
+          {
+            "type": "hide",
+            "id": "_",
+            "enabled": "enabled",
+            "name": "?",
+            "merged": false,
+            "keywords": [
+              "?"
+            ],
+            "eventId": "27"
+          },
+          {
+            "type": "show",
+            "id": "Arrow_2",
+            "enabled": "enabled",
+            "name": "Arrow 2",
+            "merged": true,
+            "keywords": [
+              "Arrow 2"
+            ],
+            "eventId": "25"
+          },
+          {
+            "type": "show",
+            "id": "__URA_guess",
+            "enabled": "enabled",
+            "name": "⊂ URA+guess",
+            "merged": true,
+            "keywords": [
+              "⊂ URA+guess"
+            ],
+            "eventId": "24"
+          },
+          {
+            "type": "show",
+            "id": "qa_blue",
+            "enabled": "enabled",
+            "name": "qa blue",
+            "merged": true,
+            "keywords": [
+              "qa blue"
+            ],
+            "eventId": "29"
+          },
+          {
+            "type": "child",
+            "name": "Function-spaces",
+            "id": "function_space",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "hide",
+                "id": "_3",
+                "enabled": "enabled",
+                "name": "|",
+                "merged": false,
+                "keywords": [
+                  "|"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "_2",
+                "enabled": "enabled",
+                "name": "|2",
+                "merged": false,
+                "keywords": [
+                  "|2"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "__q_____",
+                "enabled": "enabled",
+                "name": "– q一 + ⊤",
+                "merged": true,
+                "keywords": [
+                  "– q一 + ⊤"
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "hide",
+                "id": "_2",
+                "enabled": "enabled",
+                "name": "|2",
+                "merged": false,
+                "keywords": [
+                  "|2"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "_32",
+                "enabled": "enabled",
+                "name": "|3",
+                "merged": false,
+                "keywords": [
+                  "|3"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "hide",
+                "id": "__q_____",
+                "enabled": "enabled",
+                "name": "– q一 + ⊤",
+                "merged": true,
+                "keywords": [
+                  "– q一 + ⊤"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "__q_____2",
+                "enabled": "enabled",
+                "name": "– q一",
+                "merged": true,
+                "keywords": [
+                  "– q一"
+                ],
+                "eventId": "9"
+              },
+              {
+                "type": "show",
+                "id": "__q____q_",
+                "enabled": "enabled",
+                "name": "– q串",
+                "merged": true,
+                "keywords": [
+                  "– q串"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "+ ⊤",
+                "merged": true,
+                "keywords": [
+                  "+ ⊤"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "hide",
+                "id": "_32",
+                "enabled": "enabled",
+                "name": "|3",
+                "merged": false,
+                "keywords": [
+                  "|3"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "_4",
+                "enabled": "enabled",
+                "name": "|4",
+                "merged": false,
+                "keywords": [
+                  "|4"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "hide",
+                "id": "___",
+                "enabled": "enabled",
+                "name": "+ ⊤",
+                "merged": true,
+                "keywords": [
+                  "+ ⊤"
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Still_orbit_finitely_spanned___by_Q_____a____qa_3",
+                "enabled": "enabled",
+                "name": "Still orbit-finitely spanned – by Q + {∑a∈𝔸 qa}",
+                "merged": false,
+                "keywords": [
+                  "Still orbit-finitely spanned – by Q + {∑a∈𝔸 qa}"
+                ],
+                "eventId": "23"
+              },
+              {
+                "type": "show",
+                "id": "Still_orbit_finitely_spanned___by_Q_____a____qa_",
+                "enabled": "enabled",
+                "name": "dude",
+                "merged": false,
+                "keywords": [
+                  "dude"
+                ],
+                "eventId": "21"
+              },
+              {
+                "type": "show",
+                "id": "dude",
+                "enabled": "enabled",
+                "name": "dude",
+                "merged": false,
+                "keywords": [
+                  "dude"
+                ],
+                "eventId": "25"
+              },
+              {
+                "type": "show",
+                "id": "Group_82",
+                "enabled": "enabled",
+                "name": "orbit-finitely spanned",
+                "merged": false,
+                "keywords": [
+                  "orbit-finitely spanned"
+                ],
+                "eventId": "24"
+              },
+              {
+                "type": "show",
+                "id": "Group_8",
+                "enabled": "enabled",
+                "name": "⇒ so is the function space V →lin fs W.",
+                "merged": false,
+                "keywords": [
+                  "Theorem. Function Space (+ACC)",
+                  "⇒ so is the function space V →lin fs W."
+                ],
+                "eventId": "17"
+              },
+              {
+                "type": "show",
+                "id": "Corollary__URA_guess___WRA",
+                "enabled": "enabled",
+                "name": "Corollary. URA+guess ↪ WRA",
+                "merged": false,
+                "keywords": [
+                  "Corollary. URA+guess ↪ WRA"
+                ],
+                "eventId": "18"
+              }
+            ],
+            "keywords": [
+              "⊥",
+              "串上串串",
+              "E.g.",
+              "|",
+              "Function-spaces"
+            ],
+            "eventId": "23",
+            "originalParams": {
+              "_3": {
+                "opacity": 1
+              },
+              "_2": {
+                "opacity": 1
+              },
+              "_32": {
+                "opacity": 1
+              },
+              "_4": {
+                "opacity": 1
+              },
+              "__q_____": {
+                "opacity": 1
+              },
+              "__q_____2": {
+                "opacity": 1
+              },
+              "___": {
+                "opacity": 1
+              },
+              "__q____q_": {
+                "opacity": 1
+              },
+              "Group_8": {
+                "opacity": 1
+              },
+              "Corollary__URA_guess___WRA": {
+                "opacity": 1
+              },
+              "Still_orbit_finitely_spanned___by_Q_____a____qa_": {
+                "opacity": 1
+              },
+              "Still_orbit_finitely_spanned___by_Q_____a____qa_3": {
+                "opacity": 1
+              },
+              "Group_82": {
+                "opacity": 1
+              },
+              "dude": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Corollary_____w___V___V___w________is_orbit_finitely_spanned_",
+            "enabled": "enabled",
+            "name": "Corollary. { δw : V → V | w ∈ Σ* } is orbit-finitely spanned.",
+            "merged": false,
+            "keywords": [
+              "Corollary. { δw : V → V | w ∈ Σ* } is orbit-finitely spanned."
+            ],
+            "eventId": "31"
+          }
+        ],
+        "keywords": [
+          "DRA ⊂ UnambiguousRA",
+          "[Bojańczyk–(Fijalkow–)Klin–Moerman '21(/24)]",
+          "U-W"
+        ],
+        "eventId": "5",
+        "originalParams": {
+          "Group_5": {
+            "opacity": 1
+          },
+          "__URA_guess": {
+            "opacity": 1
+          },
+          "Arrow_2": {
+            "opacity": 1
+          },
+          "_": {
+            "opacity": 1
+          },
+          "qa_blue": {
+            "opacity": 1
+          },
+          "Corollary__URA_guess___WRA": {
+            "opacity": 1
+          },
+          "Corollary_____w___V___V___w________is_orbit_finitely_spanned_": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Arrow_9",
+        "enabled": "enabled",
+        "name": "Arrow 9",
+        "merged": false,
+        "keywords": [
+          "Arrow 9"
+        ],
+        "eventId": "11"
+      },
+      {
+        "type": "child",
+        "name": "other-atoms",
+        "id": "other_atoms",
+        "enabled": "enabled",
+        "merged": false,
+        "children": [
+          {
+            "type": "show",
+            "id": "Group_9",
+            "enabled": "enabled",
+            "name": "infinite pure set",
+            "merged": false,
+            "keywords": [
+              "Th(𝔸)",
+              "Infinite set",
+              "infinite pure set"
+            ],
+            "eventId": "1"
+          },
+          {
+            "type": "show",
+            "id": "__categorical",
+            "enabled": "enabled",
+            "name": "ω-categorical",
+            "merged": false,
+            "keywords": [
+              "ω-categorical"
+            ],
+            "eventId": "4"
+          },
+          {
+            "type": "show",
+            "id": "_Ryll_Nardzewski__TFAE____categorical_oligomorphic_i_e___d_____d_orbit_finite",
+            "enabled": "enabled",
+            "name": "[Ryll-Nardzewski] TFAE: ω-categorical oligomorphic i.e. ∀d : 𝔸d orbit-finite",
+            "merged": false,
+            "keywords": [
+              "[Ryll-Nardzewski] TFAE: ω-categorical oligomorphic i.e. ∀d : 𝔸d orbit-finite"
+            ],
+            "eventId": "3"
+          },
+          {
+            "type": "show",
+            "id": "Group_92",
+            "enabled": "enabled",
+            "name": "Finite structures",
+            "merged": false,
+            "keywords": [
+              "Finite structures",
+              "Sets",
+              "FinInj",
+              "age"
+            ],
+            "eventId": "2"
+          },
+          {
+            "type": "show",
+            "id": "Group_93",
+            "enabled": "enabled",
+            "name": "Total orders",
+            "merged": false,
+            "keywords": [
+              "Total orders",
+              "Δa,Inj"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "Group_94",
+            "enabled": "enabled",
+            "name": "Fraïssé limit (assuming amalgamation)",
+            "merged": false,
+            "keywords": [
+              "(ℚ; ≤)",
+              "Fraïssé limit (assuming amalgamation)"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "dense_linear_ordering_without_endpoints",
+            "enabled": "enabled",
+            "name": "Dense linear ordering without endpoints",
+            "merged": false,
+            "keywords": [
+              "Dense linear ordering without endpoints"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_12",
+            "enabled": "enabled",
+            "name": "E.g. “the first letter is the smallest”",
+            "merged": false,
+            "keywords": [
+              "E.g. “the last letter is the largest”",
+              "■■■■ ✓",
+              "■■■■■■ ✘",
+              "E.g. “the first letter reappears later”",
+              "牛津牛马 ✓",
+              "牛津午饭吃啥 ✘",
+              "E.g. “the first letter is the smallest”"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "Group_95",
+            "enabled": "enabled",
+            "name": "Undirected graphs",
+            "merged": false,
+            "keywords": [
+              "Undirected graphs",
+              "(Rado graph; E)",
+              "FinGphEmb"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_96",
+            "enabled": "enabled",
+            "name": "Group 9",
+            "merged": false,
+            "keywords": [
+              "∀",
+              "∃",
+              "Group 9"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_10",
+            "enabled": "enabled",
+            "name": "Infinite F2-vector space",
+            "merged": false,
+            "keywords": [
+              "F2-vector spaces",
+              "({0,1}*; “XOR”)",
+              "Infinite F2-vector space",
+              "Mat{0,1},Inj"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "_________XOR__________XOR___XOR__________XOR___XOR___XOR_________",
+            "enabled": "enabled",
+            "name": "_ = ε, _ XOR _ = ε, _ XOR _ XOR _ = ε, _ XOR _ XOR _ XOR _ = ε, ⋯",
+            "merged": false,
+            "keywords": [
+              "_ = ε, _ XOR _ = ε, _ XOR _ XOR _ = ε, _ XOR _ XOR _ XOR _ = ε, ⋯"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "MUST_use_infinitely_many_relations",
+            "enabled": "enabled",
+            "name": "MUST use infinitely many relations",
+            "merged": false,
+            "keywords": [
+              "MUST use infinitely many relations"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "Group_102",
+            "enabled": "enabled",
+            "name": "Atomless Boolean algebra",
+            "merged": false,
+            "keywords": [
+              "Boolean algebras",
+              "Atomless Boolean algebra",
+              "(clopens of {0,1}ω; ⋯infinitely many relations)",
+              "FinSurjop"
+            ],
+            "eventId": "14"
+          }
+        ],
+        "keywords": [
+          "𝔸 with richer structure?",
+          "Homogeneous 𝔸",
+          "({牛,津,⋯}; =)",
+          "a, b ∈ 𝔸d in the same Aut(𝔸)-orbit ⇔ a ≅ b",
+          "other-atoms"
+        ],
+        "eventId": "8",
+        "originalParams": {
+          "Group_9": {
+            "opacity": 1
+          },
+          "Group_92": {
+            "opacity": 1
+          },
+          "_Ryll_Nardzewski__TFAE____categorical_oligomorphic_i_e___d_____d_orbit_finite": {
+            "opacity": 1
+          },
+          "__categorical": {
+            "opacity": 1
+          },
+          "Group_93": {
+            "opacity": 1
+          },
+          "Group_94": {
+            "opacity": 1
+          },
+          "dense_linear_ordering_without_endpoints": {
+            "opacity": 1
+          },
+          "Group_95": {
+            "opacity": 1
+          },
+          "Group_96": {
+            "opacity": 1
+          },
+          "Group_10": {
+            "opacity": 1
+          },
+          "_________XOR__________XOR___XOR__________XOR___XOR___XOR_________": {
+            "opacity": 1
+          },
+          "MUST_use_infinitely_many_relations": {
+            "opacity": 1
+          },
+          "subsets_of": {
+            "opacity": 1
+          },
+          "Group_102": {
+            "opacity": 1
+          },
+          "Group_12": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "orbit-finite",
+        "id": "orbit_finite2",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "sets",
+            "id": "sets",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "An_orbit_finite_set_is_power_subset_quotient",
+                "enabled": "enabled",
+                "name": "a first-order interpretation of a set in 𝔸, obtained by: start with a finite power 𝔸n ; take an equivariant subset D ⊂ 𝔸n ; quotient by an equivariant equivalence E ⊂ D × D.",
+                "merged": false,
+                "keywords": [
+                  "a first-order interpretation of a set in 𝔸, obtained by: start with a finite power 𝔸n ; take an equivariant subset D ⊂ 𝔸n ; quotient by an equivariant equivalence E ⊂ D × D."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "E_g__pairs___2_",
+                "enabled": "enabled",
+                "name": "E.g. pairs 𝔸2;",
+                "merged": false,
+                "keywords": [
+                  "E.g. pairs 𝔸2;"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "non_repeating_pairs____2__",
+                "enabled": "enabled",
+                "name": "non-repeating pairs 𝔸(2);",
+                "merged": false,
+                "keywords": [
+                  "non-repeating pairs 𝔸(2);"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "unordered_pairs____2__",
+                "enabled": "enabled",
+                "name": "unordered pairs 𝔸{2}.",
+                "merged": false,
+                "keywords": [
+                  "unordered pairs 𝔸{2}."
+                ],
+                "eventId": "7"
+              },
+              {
+                "type": "show",
+                "id": "closed_under__",
+                "enabled": "enabled",
+                "name": "closed under ×",
+                "merged": false,
+                "keywords": [
+                  "closed under ×"
+                ],
+                "eventId": "15"
+              },
+              {
+                "type": "show",
+                "id": "closed_under__2",
+                "enabled": "enabled",
+                "name": "closed under +",
+                "merged": false,
+                "keywords": [
+                  "closed under +"
+                ],
+                "eventId": "16"
+              },
+              {
+                "type": "show",
+                "id": "Group_12",
+                "enabled": "enabled",
+                "name": "automatic: group action and continuity; orbit-finite because 𝔸 is oligomorphic",
+                "merged": false,
+                "keywords": [
+                  "automatic: group action and continuity; orbit-finite because 𝔸 is oligomorphic"
+                ],
+                "eventId": "8"
+              },
+              {
+                "type": "show",
+                "id": "Group_133",
+                "enabled": "enabled",
+                "name": "oligomorphic",
+                "merged": false,
+                "keywords": [
+                  "oligomorphic"
+                ],
+                "eventId": "14"
+              },
+              {
+                "type": "show",
+                "id": "Group_122",
+                "enabled": "enabled",
+                "name": "π(s1, ⋯, sn) ↦ πx",
+                "merged": false,
+                "keywords": [
+                  "single orbit: π(s1, ⋯, sn) ↦ πx ;",
+                  "π(s1, ⋯, sn) ↦ πx"
+                ],
+                "eventId": "10"
+              },
+              {
+                "type": "show",
+                "id": "A",
+                "enabled": "enabled",
+                "name": "D + D' ≅ quotient of 𝔸n+n'+2.",
+                "merged": false,
+                "keywords": [
+                  "D + D' ≅ quotient of 𝔸n+n'+2."
+                ],
+                "eventId": "11"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "finite substructure S ↦ elements of X supported by S",
+                "merged": false,
+                "keywords": [
+                  "a finitely presented sheaf Age(𝔸) → Set.",
+                  "finite S ⊂ 𝔸 ↦ elements of X supported by S",
+                  "finite substructure S ↦ elements of X supported by S"
+                ],
+                "eventId": "12"
+              },
+              {
+                "type": "show",
+                "id": "Group_132",
+                "enabled": "enabled",
+                "name": "colimit",
+                "merged": false,
+                "keywords": [
+                  "colim",
+                  "colimit"
+                ],
+                "eventId": "13"
+              }
+            ],
+            "keywords": [
+              "Definition: orbit-finite set over 𝔸",
+              "an Aut(𝔸)-set X where (continuity) each x ∈ X is supported by some finite Sx ⊂ 𝔸; (orbit-finiteness) there are finitely many Aut(𝔸)-orbits.",
+              "sets"
+            ],
+            "eventId": "2",
+            "originalParams": {
+              "An_orbit_finite_set_is_power_subset_quotient": {
+                "opacity": 1
+              },
+              "E_g__pairs___2_": {
+                "opacity": 1
+              },
+              "non_repeating_pairs____2__": {
+                "opacity": 1
+              },
+              "unordered_pairs____2__": {
+                "opacity": 1
+              },
+              "Group_12": {
+                "opacity": 1
+              },
+              "Group_122": {
+                "opacity": 1
+              },
+              "A": {
+                "opacity": 1
+              },
+              "Group_13": {
+                "opacity": 1
+              },
+              "Group_132": {
+                "opacity": 1
+              },
+              "Group_133": {
+                "opacity": 1
+              },
+              "closed_under__": {
+                "opacity": 1
+              },
+              "closed_under__2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "spaces",
+            "id": "spaces",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "Group_132",
+                "enabled": "enabled",
+                "name": "an Aut(𝔸)-set X where (continuity) each x ∈ X is supported by some finite Sx ⊂ 𝔸; (orbit-finiteness) there are finitely many Aut(𝔸)-orbits.",
+                "merged": false,
+                "keywords": [
+                  "an Aut(𝔸)-set X where (continuity) each x ∈ X is supported by some finite Sx ⊂ 𝔸; (orbit-finiteness) there are finitely many Aut(𝔸)-orbits.",
+                  "[Evans–⋯]",
+                  "closed under +"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Group_133",
+                "enabled": "enabled",
+                "name": "a first-order interpretation of a set in 𝔸, obtained by: start with a finite power 𝔸n ; take an equivariant subset D ⊂ 𝔸n ; quotient by an equivariant equivalence E ⊂ D × D.",
+                "merged": false,
+                "keywords": [
+                  "closed under ⊗",
+                  "a first-order interpretation of a set in 𝔸, obtained by: start with a finite power 𝔸n ; take an equivariant subset D ⊂ 𝔸n ; quotient by an equivariant equivalence E ⊂ D × D.",
+                  "[Bojańczyk–⋯]"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "need ACC",
+                "merged": false,
+                "keywords": [
+                  "𝔸 is oligomorphic ; & Lin(𝔸n) has ACC",
+                  "need ACC"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_14",
+                "enabled": "enabled",
+                "name": "need ACC",
+                "merged": false,
+                "keywords": [
+                  "need ACC"
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Function_space_property___monoidal_closed",
+                "enabled": "enabled",
+                "name": "Function space property ⇔ monoidal closed",
+                "merged": false,
+                "keywords": [
+                  "Function space property ⇔ monoidal closed"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Definition: orbit-finitely spanned vector space over 𝔸",
+              "a finitely presented sheaf Age(𝔸) → Set.",
+              "[Snowden–⋯]",
+              "spaces"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Group_13": {
+                "opacity": 1
+              },
+              "Group_14": {
+                "opacity": 1
+              },
+              "Group_132": {
+                "opacity": 1
+              },
+              "Group_133": {
+                "opacity": 1
+              },
+              "Function_space_property___monoidal_closed": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "___is_oligomorphic____Lin___d__has_ACC",
+            "enabled": "enabled",
+            "name": "𝔸 is oligomorphic",
+            "merged": false,
+            "keywords": [
+              "𝔸 is oligomorphic"
+            ],
+            "eventId": "5"
+          },
+          {
+            "type": "show",
+            "id": "_d___Lin___d__has_ACC",
+            "enabled": "enabled",
+            "name": "∀d : Lin(𝔸d) has ACC",
+            "merged": false,
+            "keywords": [
+              "∀d : Lin(𝔸d) has ACC"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "_",
+            "enabled": "enabled",
+            "name": "⇐",
+            "merged": false,
+            "keywords": [
+              "⇐"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Group_132",
+            "enabled": "enabled",
+            "name": "Question: ",
+            "merged": false,
+            "keywords": [
+              "Question: "
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "[Camina–Evans '91]",
+            "merged": true,
+            "keywords": [
+              "⇒",
+              "?",
+              "[Bojańczyk–⋯ '21]",
+              "[Camina–Evans '91]"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "WQO__Ghosh_Lasota__24_____Laudone_Snowden__23_",
+            "enabled": "enabled",
+            "name": "WQO [Ghosh–Lasota '24] = [Laudone–Snowden '23]",
+            "merged": false,
+            "keywords": [
+              "WQO [Ghosh–Lasota '24] = [Laudone–Snowden '23]"
+            ],
+            "eventId": "12"
+          },
+          {
+            "type": "show",
+            "id": "_3",
+            "enabled": "enabled",
+            "name": "⇒",
+            "merged": true,
+            "keywords": [
+              "⇒"
+            ],
+            "eventId": "16"
+          },
+          {
+            "type": "show",
+            "id": "AZ_enumeration",
+            "enabled": "enabled",
+            "name": "AZ enumeration “either trivial, or false”",
+            "merged": false,
+            "keywords": [
+              "AZ enumeration “either trivial, or false”"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "_2",
+            "enabled": "enabled",
+            "name": "⇒",
+            "merged": true,
+            "keywords": [
+              "⇒"
+            ],
+            "eventId": "15"
+          },
+          {
+            "type": "show",
+            "id": "Group_13",
+            "enabled": "enabled",
+            "name": "∀d : Lin(𝔸d) has finite length",
+            "merged": false,
+            "keywords": [
+              "∀d : Lin(𝔸d) has finite length",
+              "⇒"
+            ],
+            "eventId": "10"
+          }
+        ],
+        "keywords": [
+          "Sets & Vector spaces over 𝔸",
+          "orbit-finite"
+        ],
+        "eventId": "13",
+        "originalParams": {
+          "___is_oligomorphic____Lin___d__has_ACC": {
+            "opacity": 1
+          },
+          "_d___Lin___d__has_ACC": {
+            "opacity": 1
+          },
+          "Group_14": {
+            "opacity": 1
+          },
+          "Group_132": {
+            "opacity": 1
+          },
+          "_": {
+            "opacity": 1
+          },
+          "Group_13": {
+            "opacity": 1
+          },
+          "WQO__Ghosh_Lasota__24_____Laudone_Snowden__23_": {
+            "opacity": 1
+          },
+          "AZ_enumeration": {
+            "opacity": 1
+          },
+          "_2": {
+            "opacity": 1
+          },
+          "_3": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "child",
+        "name": "Lengthscape",
+        "id": "Lengthscape",
+        "enabled": "enabled",
+        "merged": true,
+        "children": [
+          {
+            "type": "child",
+            "name": "QN",
+            "id": "QN",
+            "enabled": "enabled",
+            "merged": false,
+            "children": [
+              {
+                "type": "show",
+                "id": "Claim__Lin____has_length_2",
+                "enabled": "enabled",
+                "name": "Claim: Lin(ℚ) has length 2.",
+                "merged": false,
+                "keywords": [
+                  "Claim: Lin(ℚ) has length 2."
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Proof__because_the_only_non_trivial__proper_equivariant_subspace_is",
+                "enabled": "enabled",
+                "name": "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace.",
+                "merged": false,
+                "keywords": [
+                  "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Function_spaces",
+                "enabled": "enabled",
+                "name": "Function spaces",
+                "merged": false,
+                "keywords": [
+                  "Function spaces"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Claim__Lin____has_length_2_",
+                "enabled": "enabled",
+                "name": "Example. The dual space of Lin(ℚ) has [-∞, +∞), [-∞, a), {a} for a ∈ ℚ as an orbit-finite spanning set.",
+                "merged": false,
+                "keywords": [
+                  "Example. The dual space of Lin(ℚ) has [-∞, +∞), [-∞, a), {a} for a ∈ ℚ as an orbit-finite spanning set."
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "Definition. (𝔸; Ri) interprets in (ℚ; ≤) if, up to ≅, 𝔸 is an orbit-finite set over ℚ; Ri is Aut(ℚ)-equivariant.",
+                "merged": false,
+                "keywords": [
+                  "Definition. (𝔸; Ri) interprets in (ℚ; ≤) if, up to ≅, 𝔸 is an orbit-finite set over ℚ; Ri is Aut(ℚ)-equivariant."
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Lemma__Interpretations_preserve_ACC__finite_length___Proof__We_have_Aut______Aut______so_if_Vj___Lin___n__is_Aut_____equivariant_it_is_also_Aut____equivariant_",
+                "enabled": "enabled",
+                "name": "Lemma. Interpretations preserve ACC(/finite length). Proof: We have Aut(ℚ) → Aut(𝔸), so if Vj ⊆ Lin(𝔸n) is Aut(𝔸)-equivariant it is also Aut(ℚ)-equivariant.",
+                "merged": false,
+                "keywords": [
+                  "Lemma. Interpretations preserve ACC(/finite length). Proof: We have Aut(ℚ) → Aut(𝔸), so if Vj ⊆ Lin(𝔸n) is Aut(𝔸)-equivariant it is also Aut(ℚ)-equivariant."
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Point_of_interest_2",
+                "enabled": "enabled",
+                "name": "Point_of_interest 2",
+                "merged": false,
+                "keywords": [
+                  "Point_of_interest 2"
+                ],
+                "eventId": "7"
+              }
+            ],
+            "keywords": [
+              "Finite Length",
+              "QN"
+            ],
+            "eventId": "3",
+            "originalParams": {
+              "Claim__Lin____has_length_2": {
+                "opacity": 1
+              },
+              "Proof__because_the_only_non_trivial__proper_equivariant_subspace_is": {
+                "opacity": 1
+              },
+              "Function_spaces": {
+                "opacity": 1
+              },
+              "Claim__Lin____has_length_2_": {
+                "opacity": 1
+              },
+              "Group_13": {
+                "opacity": 1
+              },
+              "Lemma__Interpretations_preserve_ACC__finite_length___Proof__We_have_Aut______Aut______so_if_Vj___Lin___n__is_Aut_____equivariant_it_is_also_Aut____equivariant_": {
+                "opacity": 1
+              },
+              "Point_of_interest_2": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "rado",
+            "id": "rado",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "generically_ordered_Rado_graph",
+                "enabled": "enabled",
+                "name": "generically ordered Rado graph",
+                "merged": false,
+                "keywords": [
+                  "generically ordered Rado graph"
+                ],
+                "eventId": "6"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace.",
+                "merged": false,
+                "keywords": [
+                  "Finite Length",
+                  "Claim: Lin(ℚ) has length 2.",
+                  "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_132",
+                "enabled": "enabled",
+                "name": "Group 13",
+                "merged": false,
+                "keywords": [
+                  "Group 13"
+                ],
+                "eventId": "5"
+              },
+              {
+                "type": "show",
+                "id": "Function_spaces",
+                "enabled": "enabled",
+                "name": "Function spaces",
+                "merged": false,
+                "keywords": [
+                  "Function spaces"
+                ],
+                "eventId": "4"
+              }
+            ],
+            "keywords": [
+              "rado"
+            ],
+            "eventId": "4",
+            "originalParams": {
+              "Group_13": {
+                "opacity": 1
+              },
+              "Function_spaces": {
+                "opacity": 1
+              },
+              "Group_132": {
+                "opacity": 1
+              },
+              "generically_ordered_Rado_graph": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "child",
+            "name": "henson",
+            "id": "henson",
+            "enabled": "enabled",
+            "merged": true,
+            "children": [
+              {
+                "type": "show",
+                "id": "generically_ordered_Kn_free_graph",
+                "enabled": "enabled",
+                "name": "generically ordered Kn-free graph",
+                "merged": false,
+                "keywords": [
+                  "generically ordered Kn-free graph"
+                ],
+                "eventId": "1"
+              },
+              {
+                "type": "show",
+                "id": "Group_13",
+                "enabled": "enabled",
+                "name": "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace.",
+                "merged": false,
+                "keywords": [
+                  "Finite Length",
+                  "Claim: Lin(ℚ) has length 2.",
+                  "Proof: Check that { ∑a∈ℚ λa a | ∑a∈ℚ λa = 0 } is the only non-trivial, proper equivariant subspace."
+                ],
+                "eventId": "2"
+              },
+              {
+                "type": "show",
+                "id": "Group_132",
+                "enabled": "enabled",
+                "name": "Group 13",
+                "merged": false,
+                "keywords": [
+                  "Group 13"
+                ],
+                "eventId": "3"
+              },
+              {
+                "type": "show",
+                "id": "Function_spaces",
+                "enabled": "enabled",
+                "name": "Function spaces",
+                "merged": false,
+                "keywords": [
+                  "Function spaces"
+                ],
+                "eventId": "4"
+              },
+              {
+                "type": "show",
+                "id": "Group_14",
+                "enabled": "enabled",
+                "name": "Theorem. [Lachlan–Woodrow '80] ⋯ Corollary. Lin(𝔸n) has finite length if 𝔸 is a homogeneous graph.",
+                "merged": false,
+                "keywords": [
+                  "Theorem. [Lachlan–Woodrow '80] ⋯ Corollary. Lin(𝔸n) has finite length if 𝔸 is a homogeneous graph."
+                ],
+                "eventId": "6"
+              }
+            ],
+            "keywords": [
+              "Henson’s generic Kn-free graph",
+              "henson"
+            ],
+            "eventId": "5",
+            "originalParams": {
+              "generically_ordered_Kn_free_graph": {
+                "opacity": 1
+              },
+              "Group_13": {
+                "opacity": 1
+              },
+              "Group_132": {
+                "opacity": 1
+              },
+              "Function_spaces": {
+                "opacity": 1
+              },
+              "Text": {
+                "opacity": 1
+              },
+              "Group_14": {
+                "opacity": 1
+              }
+            }
+          },
+          {
+            "type": "show",
+            "id": "Group_14",
+            "enabled": "enabled",
+            "name": "SOP",
+            "merged": false,
+            "keywords": [
+              "SOP",
+              "IP"
+            ],
+            "eventId": "6"
+          },
+          {
+            "type": "show",
+            "id": "Group_16",
+            "enabled": "enabled",
+            "name": "oligomorphically approximated",
+            "merged": false,
+            "keywords": [
+              "oligomorphically approximated"
+            ],
+            "eventId": "7"
+          },
+          {
+            "type": "show",
+            "id": "Group_162",
+            "enabled": "enabled",
+            "name": "Theorem. ⇒ finite length",
+            "merged": false,
+            "keywords": [
+              "Theorem. ⇒ finite length"
+            ],
+            "eventId": "8"
+          },
+          {
+            "type": "show",
+            "id": "Point_of_interest_2",
+            "enabled": "enabled",
+            "name": "Point_of_interest 2",
+            "merged": true,
+            "keywords": [
+              "Point_of_interest 2"
+            ],
+            "eventId": "13"
+          },
+          {
+            "type": "show",
+            "id": "Group_163",
+            "enabled": "enabled",
+            "name": "Lachlan’s class: ω-stable + reduct of finitely homogeneous ⇔ interprets in (ℚ; ≤)",
+            "merged": false,
+            "keywords": [
+              "Lachlan’s class: ω-stable + reduct of finitely homogeneous ⇔ NSOP + interprets in (ℚ; ≤)",
+              "Lachlan’s class: ω-stable + reduct of finitely homogeneous ⇔ interprets in (ℚ; ≤)"
+            ],
+            "eventId": "9"
+          },
+          {
+            "type": "show",
+            "id": "Point_of_interest_2",
+            "enabled": "enabled",
+            "name": "Point_of_interest 2",
+            "merged": false,
+            "keywords": [
+              "Point_of_interest 2"
+            ],
+            "eventId": "10"
+          },
+          {
+            "type": "show",
+            "id": "Group_164",
+            "enabled": "enabled",
+            "name": "generic poset",
+            "merged": false,
+            "keywords": [
+              "generic poset"
+            ],
+            "eventId": "11"
+          },
+          {
+            "type": "show",
+            "id": "Group_165",
+            "enabled": "enabled",
+            "name": "dense meet-tree",
+            "merged": false,
+            "keywords": [
+              "dense meet-tree"
+            ],
+            "eventId": "12"
+          }
+        ],
+        "keywords": [
+          "[Y.–Bojańczyk–Klin '26]",
+          "The lengthscape",
+          "(ℚ; ≤)",
+          "({0,1}*; XOR)",
+          "atomless Boolean algebra",
+          "Rado graph",
+          "(𝔸; =)",
+          "Lengthscape"
+        ],
+        "eventId": "7",
+        "originalParams": {
+          "Group_14": {
+            "opacity": 1
+          },
+          "Group_16": {
+            "opacity": 1
+          },
+          "Group_162": {
+            "opacity": 1
+          },
+          "Group_163": {
+            "opacity": 1
+          },
+          "Point_of_interest_2": {
+            "opacity": 1
+          },
+          "Group_164": {
+            "opacity": 1
+          },
+          "Group_165": {
+            "opacity": 1
+          }
+        }
+      },
+      {
+        "type": "show",
+        "id": "Group_16",
+        "enabled": "enabled",
+        "name": "future plan",
+        "merged": false,
+        "keywords": [
+          "3",
+          "1",
+          "2",
+          "4",
+          "5",
+          "6",
+          "future plan"
+        ],
+        "eventId": "14"
+      }
+    ],
+    "keywords": [
+      "Jingjie Yang",
+      "Computation Theory with Atoms",
+      "(confirmation viva)",
+      "“some letter has appeared before”",
+      "monoid languages",
+      "“all letters are distinct”",
+      "root"
+    ],
+    "eventId": "root",
+    "originalParams": {
+      "Arrow_9": {
+        "opacity": 1
+      },
+      "Group_16": {
+        "opacity": 1
+      }
+    }
+  },
+  "treeTimeLine": [],
+  "chronicleTimeLine": []
+}
